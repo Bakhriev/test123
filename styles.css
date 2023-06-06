@@ -58,13 +58,15 @@ body {
 }
 
 .swiper-button-next {
-    right: 10vw !important;
-    top: 85% !important;
+    right: 20px !important;
+    top: auto !important;
+    bottom: 50px !important;
 }
 
 .swiper-button-prev {
-    left: 10vw !important;
-    top: 85% !important;
+    left: 20px !important;
+    top: auto !important;
+    bottom: 50px !important;
 }
 
 .swiper-button-next:hover,
@@ -702,8 +704,8 @@ textarea:focus {
 
     #page2 h1 {
         margin-bottom: 25px;
-        margin-top: 13vw;
-        font-size: 6vw;
+        margin-top: 3vw;
+        font-size: 5vw;
     }
 
     #page2 h3 {
@@ -825,10 +827,6 @@ textarea:focus {
         font-size: 4vw;
     }
 
-    #page2 label {
-        font-size: 4vw;
-        margin-bottom: 12px;
-    }
 
     #page2 .comment-button {
         font-size: 2.8vw;
@@ -899,4 +897,52 @@ textarea:focus {
     }
 
 
+}
+
+@media screen and (max-width: 450px) {
+    #page2 h3 {
+        margin-top: 4vw;
+        font-size: 4vw;
+    }
+
+    #page2 .modal p {
+        font-size: 4vw;
+    }
+
+
+    #page2 .survey-card {
+        padding: 10px;
+    }
+
+    #page2 label {
+        font-size: 3vw;
+        margin-bottom: 12px;
+    }
+
+
+
+    #page2 .comment-button {
+        font-size: 2.8vw;
+    }
+
+    #page2 .button {
+        font-size: 3vw;
+        width: max-content;
+    }
+
+    #page2 .error-message {
+        color: red;
+        font-size: 0.8em;
+    }
+
+    #page2 .comment-button-container {
+        bottom: 30px;
+    }
+
+    #page2 .swiper-button-next,
+    #page2 .swiper-button-prev {
+        width: 20vw !important;
+        height: 10vw !important;
+        font-size: 3.8vw !important;
+    }
 }
