@@ -300,11 +300,8 @@ textarea:focus {
 }
 
 #page2 .comment-button-container {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 10%;
-    width: 100%;
+    margin-bottom: 60px;
+    margin-top: 20px;
 }
 
 #page2 .comment-button {
@@ -843,9 +840,7 @@ textarea:focus {
         font-size: 0.8em;
     }
 
-    #page2 .comment-button-container {
-        bottom: 40px;
-    }
+
 
     #page2 .swiper-button-next,
     #page2 .swiper-button-prev {
@@ -936,9 +931,7 @@ textarea:focus {
         font-size: 0.8em;
     }
 
-    #page2 .comment-button-container {
-        bottom: 30px;
-    }
+
 
     #page2 .swiper-button-next,
     #page2 .swiper-button-prev {
