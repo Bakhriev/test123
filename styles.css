@@ -626,9 +626,9 @@ textarea:focus {
     }
 
     #page3 h1 {
-        font-size: 5vw;
+        font-size: 10vw;
         margin-bottom: 20px;
-        margin-top: 15vw;
+        margin-top: 5vw;
     }
 
 
@@ -705,7 +705,7 @@ textarea:focus {
     #page2 h1 {
         margin-bottom: 25px;
         margin-top: 3vw;
-        font-size: 5vw;
+        font-size: 7vw;
     }
 
     #page2 h3 {
@@ -745,10 +745,11 @@ textarea:focus {
 
 
     #page3 h1 {
-        font-size: 6vw;
+        font-size: 10vw;
         margin-bottom: 20px;
-        margin-top: 22vw;
+        margin-top: 5vw;
     }
+
 
     #page3 p {
         font-size: 3vw;
