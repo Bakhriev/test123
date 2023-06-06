@@ -804,6 +804,16 @@ textarea:focus {
         font-size: 3vw;
     }
 
+    #page2 .button {
+        font-size: 3.5vw;
+        width: max-content;
+    }
+
+    #page2 .error-message {
+        color: red;
+        font-size: 0.8em;
+    }
+
     #page2 .comment-button-container {
         bottom: 40px;
     }
