@@ -9,6 +9,16 @@ body {
     --swiper-theme-color: #000 !important;
 }
 
+.contain {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+
+
+
+
 .swiper-container {
     width: 100%;
     height: 100%;
@@ -609,6 +619,18 @@ textarea:focus {
         font-size: 2.1vw !important;
     }
 
+    #page2 h1 {
+        margin-top: 1.5vw;
+    }
+
+    #page3 h1 {
+        font-size: 5vw;
+        margin-bottom: 20px;
+        margin-top: 15vw;
+    }
+
+
+
     /* Page4 */
 
     #page4 h1 {
@@ -616,12 +638,7 @@ textarea:focus {
         margin-bottom: 10px;
     }
 
-    #page4 .wedding-program-container {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 90%;
-        gap: 20px;
-    }
+
 
     #page4 .program-item {
         flex-basis: 33%;
@@ -629,6 +646,17 @@ textarea:focus {
 
     #page4 .program-number {
         font-size: 1.5em;
+    }
+
+    #page4 .wedding-program-container {
+        grid-template-columns: 1fr;
+        overflow-y: scroll;
+        grid-gap: 2%;
+        padding: 3vh;
+        max-width: 90%;
+        max-height: 60%;
+        margin: 0 auto;
+        margin-top: 50px;
     }
 
 }
@@ -666,13 +694,16 @@ textarea:focus {
         width: 13vw !important;
         height: 6.5vw !important;
         font-size: 2.5vw !important;
+
     }
 
 
     /* Page2 */
 
     #page2 h1 {
-        margin-bottom: 55px;
+        margin-bottom: 25px;
+        margin-top: 13vw;
+        font-size: 6vw;
     }
 
     #page2 h3 {
@@ -713,6 +744,8 @@ textarea:focus {
 
     #page3 h1 {
         font-size: 6vw;
+        margin-bottom: 20px;
+        margin-top: 22vw;
     }
 
     #page3 p {
@@ -738,14 +771,7 @@ textarea:focus {
     }
 
     /* Page 4 */
-    #page4 .wedding-program-container {
-        display: flex;
-        flex-wrap: wrap;
-        overflow-y: scroll;
-        max-width: 90%;
-        padding: 3vh;
-        gap: 20px;
-    }
+
 
     #page4 .program-item {
         flex-basis: 100%;
@@ -792,16 +818,20 @@ textarea:focus {
 
     /* Page 2  */
     #page2 h3 {
-        font-size: 4.5vw;
+        font-size: 4vw;
+    }
+
+    #page2 .modal p {
+        font-size: 4vw;
     }
 
     #page2 label {
-        font-size: 4.3vw;
+        font-size: 4vw;
         margin-bottom: 12px;
     }
 
     #page2 .comment-button {
-        font-size: 3vw;
+        font-size: 2.8vw;
     }
 
     #page2 .button {
@@ -822,7 +852,7 @@ textarea:focus {
     #page2 .swiper-button-prev {
         width: 20vw !important;
         height: 10vw !important;
-        font-size: 4vw !important;
+        font-size: 3.8vw !important;
     }
 
     /* Page 3 */
@@ -859,5 +889,14 @@ textarea:focus {
         height: 9vw !important;
         font-size: 4vw !important;
     }
+
+    #page4 .wedding-program-container {
+        margin-top: 30px;
+    }
+
+    #page4 h1 {
+        font-size: 5vw;
+    }
+
 
 }
